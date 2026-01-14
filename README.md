@@ -16,7 +16,7 @@
 - **Confidence Intervals**: Price ranges for better decision-making
 
 ### 🌐 Real-Time Intelligence
-- **Perplexity AI Integration**: Live market data for any city
+- **Perplexity AI API Integration**: Live market data for any city
 - **Dynamic City Support**: 28+ predefined cities + custom city input
 - **Real-Time Crime Data**: Safety scores fetched via AI for unknown cities
 
@@ -85,7 +85,7 @@ House-prediction/
 │   ├── requirements.txt       # Python dependencies
 │   ├── .env                   # API keys (create this)
 │   ├── src/
-│   │   ├── ai_integration.py  # Perplexity AI integration
+│   │   ├── ai_integration.py  # Perplexity AI API integration
 │   │   ├── data_processing.py # Data & feature engineering
 │   │   ├── model_training.py  # XGBoost + LightGBM ensemble
 │   │   └── explainer.py       # SHAP explainability
@@ -106,7 +106,7 @@ House-prediction/
 | Layer | Technologies |
 |-------|--------------|
 | **ML Models** | XGBoost, LightGBM |
-| **AI Integration** | Perplexity AI (real-time data) |
+| **AI Integration** | Perplexity AI API (real-time data) |
 | **Backend** | Python, Flask, Pandas, Scikit-learn, SHAP |
 | **Frontend** | React 18, Vite, Framer Motion, Recharts |
 | **Styling** | CSS3 Glassmorphism |
@@ -129,7 +129,7 @@ House-prediction/
 
 **28 predefined cities**: Mumbai, Delhi, Bangalore, Chennai, Hyderabad, Pune, Kolkata, Ahmedabad, Jaipur, Lucknow, Surat, Thane, Nagpur, Indore, Bhopal, Visakhapatnam, Patna, Vadodara, Ghaziabad, Ludhiana, Agra, Nashik, Faridabad, Meerut, Rajkot, Varanasi, Srinagar, Kanpur
 
-**+ Any other city**: Select "Others" and type any city name. Real-time data will be fetched using Perplexity AI.
+**+ Any other city**: Select "Others" and type any city name. Real-time data will be fetched using Perplexity AI API.
 
 ---
 
@@ -152,4 +152,4 @@ MIT License - see [LICENSE.txt](LICENSE.txt)
 
 ---
 
-**© 2026 | Built with Python, Machine Learning & Perplexity AI**
+**© 2026 | Built with Python, Machine Learning**
