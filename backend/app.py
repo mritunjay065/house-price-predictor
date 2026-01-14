@@ -48,7 +48,7 @@ feature_names = None
 # Paths
 BASE_PATH = Path(__file__).parent
 MODEL_PATH = BASE_PATH / 'models' / 'house_price_model.joblib'
-DATA_PATH = BASE_PATH.parent / 'Housing (1).csv'
+DATA_PATH = BASE_PATH / 'data' / 'raw' / 'Housing (1).csv'
 
 
 def load_model():
