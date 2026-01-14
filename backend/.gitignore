@@ -1,0 +1,8 @@
+# Backend gitignore
+.env
+__pycache__/
+*.pyc
+*.pyo
+models/*.joblib
+.DS_Store
+*.log
